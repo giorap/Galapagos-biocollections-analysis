@@ -1,0 +1,13 @@
+name: galapagos_biocollections_dashboard
+title: galapagos_biocollections_dashboard
+username:
+account: grap
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1053082
+bundleId: 2268538
+url: https://grap.shinyapps.io/galapagos_biocollections_dashboard/
+when: 1564180586.41425
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: www/Cal_Coast_Data_Explorer_logo.png|www/sponsor-logos.png

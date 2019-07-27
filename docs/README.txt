@@ -1,0 +1,1 @@
+The 'docs' folder stores all human-readable text-based files (e.g. Word, pdfs)

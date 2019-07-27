@@ -1,0 +1,1 @@
+The 'output' folder stores any other files related to the analysis (e.g. data, models, tables, bibliography)

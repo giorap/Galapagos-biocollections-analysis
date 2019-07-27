@@ -1,0 +1,233 @@
+html, body {
+  margin: 0;
+  padding: 0;  
+}
+
+.outer {
+  top: 41px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 45px;    /* Footer height */
+}
+
+/*********************************************************************
+
+
+                            Navigation in header
+
+
+**********************************************************************/
+.navbar {
+  border-width: 1px 0;
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  width: 100%;
+  margin-bottom: 0;
+}
+.navbar-default .navbar-brand {
+    font-family: 'Helvetica', Helvetica;
+    font-size: 21px;
+    font-weight: 600;
+    color: #4E78A0;
+    line-height: 24px;
+    padding-top:10px;
+    padding-bottom:10px;
+} 
+
+.navbar-default .navbar-brand > li > a:hover {
+    color: #4E78A0;
+}  
+
+.navbar-collapse {
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.navbar-collapse .navbar-nav {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.navbar-collapse .navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+.navbar-collapse .navbar-nav > li > a {
+  padding: 20px 30px;
+}
+
+.navbar-default {
+  background-color: #B0E2FF;
+  border-color: #33A1DE;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #33A1DE;
+  border-color: #33A1DE;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  border-color: #33A1DE;
+  background-color: #33A1DE;
+}
+
+.navbar-default .dropdown ul.dropdown-menu > li > a {
+  color: #33A1C9;
+  border-color: #33A1DE;
+  background-color: #33A1DE;
+}
+.navbar-default .dropdown ul.dropdown-menu > li > a:hover {
+  border-color: #33A1DE;
+  color: #33A1C9;
+  background-color: #33A1DE;
+}
+.navbar-default .navbar-toggle {
+  border-color: #33A1DE;
+  background-color: #33A1DE;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #33A1DE;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #33A1DE;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  color: white;
+  border-color: #33A1DE;
+  background-color: #33A1DE;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #33A1DE;
+  color: #33A1C9;
+}
+
+.leaflet-container .leaflet-control-attribution {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.7);
+	margin: 0;
+	margin-top: 20px;
+	}
+	
+.leaflet-control-attribution,
+.leaflet-control-scale-line {
+	padding: 0 5px;
+	color: #333;
+	}
+
+
+/* Customize fonts */
+  body, label, input, button, select { 
+    font-family: 'Helvetica', Helvetica;
+    font-weight: 200;
+  }
+h1, h2, h3, h4 { font-weight: 400; }
+
+h5 {
+  font-family: 'Helvetica', Helvetica;
+  font-size: 14px;  
+}
+
+#controls {
+/* Appearance */
+background-color: white;
+padding: 0 20px 20px 20px;
+opacity: 0.9;
+zoom: 0.9;
+}
+#controls:hover {
+/* Fade in while hovering */
+  opacity: 0.9;
+transition-delay: 0;
+}
+
+/* Position and style citation */
+  #cite {
+  position: absolute;
+bottom: 10px;
+left: 10px;
+font-size: 20px;
+}
+
+/* If not using map tiles, show a white background */
+  .leaflet-container {
+    background-color: white !important;
+  }
+
+.box-right {
+  text-align: right;
+  float: right;
+}
+
+.nav-tabs-custom {
+  padding-top: 0;
+  padding-left: 0;
+}
+
+.nav-tabs-custom .nav-tabs li:hover a {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 3px solid #33A1DE;
+}
+
+.nav-tabs-custom .nav-tabs li.active:hover a, .nav-tabs-custom .nav-tabs li.active a {
+  background-color: transparent;
+  border-color: transparent;
+  font-weight: bold;
+  border-bottom: 3px solid #33A1DE;
+}
+
+#county1_id_text, #MPA1_id_text, #county1_id_text2, #MPA1_id_text2, #county1_id_text3, #MPA1_id_text3, 
+#county1_id_text4, #MPA1_id_text4, #county1_id_text5, #MPA1_id_text5 {
+  display:inline;
+  color: #00BFFF;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+#county2_id_text, #MPA2_id_text, #county2_id_text2, #MPA2_id_text2, #county2_id_text3, #MPA2_id_text3, 
+#county2_id_text4, #MPA2_id_text4, #county2_id_text5, #MPA2_id_text5 {
+  display:inline;
+  color: #9ACD32;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.awesome-marker-icon-transparent {
+  background: none;
+}
+
+footer {
+  background-color: #B0E2FF;
+  text-align:center;
+  width:100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  padding-right: 50px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-top: 1px solid #33A1DE;
+  height: 45px;
+}
